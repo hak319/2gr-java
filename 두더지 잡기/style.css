@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3, 100px);
+    width: 400px;
+    height: 400px;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border: solide black 1px;
+}
+
+.mole {
+    background-image: url("img/cho.png");
+    background-size: cover;
+}
+
